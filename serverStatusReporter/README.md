@@ -6,7 +6,7 @@
 mvn clean package
 
 ## Run 
-java -jar serverStatusReporter-1.0.jar
+java -jar serverStatusReporter-1.0.jar (jar is under target folder)
 
 ## Assumptions
 1. Total number of requests per application per version do not exceed a max long value ((2^63)-1). Assuming the number of requests on the status page is reported for the last X amount of time and this tool is run on a periodic schedule and success rates are stored in a persistent storage.

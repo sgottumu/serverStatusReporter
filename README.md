@@ -1,6 +1,6 @@
 ## Dependencies
-Java 11
-Maven (to build the jar)
+1. Java 11
+2. Maven (to build the jar)
 
 ## Build 
 mvn clean package
